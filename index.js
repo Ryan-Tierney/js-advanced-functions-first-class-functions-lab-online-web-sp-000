@@ -7,6 +7,4 @@ const returnLastTwoDrivers = function(array) {
   return array.slice(-2)
 }
 
-const selectingDrivers = [] 
-selectingDrivers << returnFirstTwoDrivers 
-selectingDrivers << returnLastTwoDrivers
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers] 
