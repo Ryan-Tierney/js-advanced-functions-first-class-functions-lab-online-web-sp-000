@@ -2,5 +2,4 @@
 const returnFirstTwoDrivers() = function(array) {
   return array[0] 
   return array[1]
-  
 }
