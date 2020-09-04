@@ -14,3 +14,4 @@ const createFareMultiplier = function(value) {
     return (value * othervalue)
   }
 }
+
